@@ -1,0 +1,41 @@
+<%- include('partials/header') -%>
+<!-- the header renders here -->
+
+<main class="container-fluid g-0">
+  <!-- Hero -->
+  <div
+    class="bg-image"
+    style="
+      background-image: url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div
+      class="mask"
+      style="background-color: rgba(0, 0, 0, 0.6); height: 100vh"
+    >
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white col-6">
+          <h1 class="mb-1 text-right">
+            Connect and trade with Fellow Gardeners!
+          </h1>
+          <p class="mb-3 text-right">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+            ullam corporis, commodi delectus sed eos fugiat voluptas facere
+          </p>
+          <div class="text-right">
+            <!-- <a href="/login" class="col-3 btn btn-success"> Login</a> -->
+            <a href="/signup" class="btn btn-success "> Signup</a>
+            <!-- redirecting it to other parts of the ejs same folder -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero -->
+</main>
+
+<%- include('partials/footer') -%>
