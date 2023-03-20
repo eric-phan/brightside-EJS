@@ -1,18 +1,25 @@
-<%- include('partials/header') -%>
+<%- include('partials/loggedHeader') -%>
 <!-- partials are small pieces of ejs code that yo ucan just reuse on where you include it -->
   <div class="container">
-    <div class="row justify-content-center mt-5">
-      <ul class="row list-unstyled">
-        <% for(var i=0; i<posts.length; i++) {%>
-          <li class="col-6 justify-content-between mt-5">
-            <a href="/post/<%= posts[i]._id%>">
-              <!-- create an anchor tag for each post -->
-              <img class="img-fluid" src="<%= posts[i].image%>">
-              <!-- for whaever post show an images tag on the page  -->
-            </a>
-          </li>
-        <% } %>
+    <div class="col-12"></div>
+      <div class="row justify-content-center mt-5">
+        <h2 class="text-center">Community Garden</h2>
+        <ul class="row list-unstyled mb-5 justify-content-center">
+          <% for(var i=0; i<posts.length; i++) {%>
+            <li class="col-6 justify-content-between mt-5">
+              <a href="/post/<%= posts[i]._id%>">
+                <!-- create an anchor tag for each post -->
+                <img class="img-fluid w-100 h-75" src="<%= posts[i].image%>">
+                <!-- for whaever post show an images tag on the page  -->
+              </a>
+            </li>
+          <% } %>
+          <div class="justify-content-center mb-5">
+            <a class="btn btn-secondary" href="/feed">Return to Feed</a>
+          </div>
         </ul>
+         
+      </div>
     </div>
   </div>  
 <%- include('partials/footer') -%>
