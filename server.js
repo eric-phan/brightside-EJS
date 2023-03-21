@@ -56,10 +56,12 @@ app.use(flash());
 //Setup Routes For Which The Server Is Listening
 app.use("/", mainRoutes);
 app.use("/post", postRoutes);
-// references the variable of postrouts on top
+// references the variable of postroutes on top
 
 // Serve up CSS files
 app.use("/public", express.static("public"));
+app.use("/post/public", express.static("public"));
+// This solved your routing css problem, able to serve on posts now!
 
 //Server Running
 app.listen(process.env.PORT, () => {

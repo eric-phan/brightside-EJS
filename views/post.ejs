@@ -1,11 +1,12 @@
-<%- include('partials/header') -%>
-<!-- this partial header will load bootstrap -->
+<%- include('partials/loggedHeader') -%>
+<!-- Since you are on /post route, had to add a app.use /post to serve on this route -->
+
 <div class="container">
   <div class="row justify-content-center mt-5">
-    <div class="col-6">
-      <h2><%= post.title %></h2>
+    <div class="col-12">
+      <h2 class="text-center"><%= "'" + post.title + "'" %></h2>
       <img class="img-fluid" src="<%= post.image%>" />
-      <div class="row justify-content-between">
+      <div class="row float-left mt-3">
         <form
           class="col-1"
           action="/post/likePost/<%= post.id %>?_method=PUT"
@@ -13,25 +14,28 @@
         >
           <button class="btn btn-secondary fa fa-heart" type="submit"></button>
         </form>
-        <h3 class="col-3">Likes: <%= post.likes %></h3>
         <%if(post.user == user.id){ %>
         <form
           action="/post/deletePost/<%= post.id %>?_method=DELETE"
           method="POST"
           class="col-3"
         >
-          <button class="btn btn-secondary fa fa-trash" type="submit"></button>
+          <button
+            class="btn btn-secondary fa fa-trash mx-2"
+            type="submit"
+          ></button>
         </form>
         <%}%>
       </div>
+      <h3 class="col-3">Likes: <%= post.likes %></h3>
     </div>
-    <div class="col-3 mt-5">
+    <div class="col-12">
       <p><%= post.caption %></p>
     </div>
-    <div class="col-6 mt-5">
+    <div class="row justify-content-center col-4 my-3">
       <a class="btn btn-secondary" href="/profile">Return to Profile</a>
       <!-- this is important for routing -->
-      <a class="btn btn-secondary" href="/feed">Return to Feed</a>
+      <a class="btn btn-secondary my-3" href="/feed">Return to Feed</a>
     </div>
   </div>
 </div>
