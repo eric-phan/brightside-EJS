@@ -1,10 +1,11 @@
-# A fullstack social media site made by and for gardeners!
-## Talk, trade and grow your passion.
+# Brightside: A fullstack social media site made by and for gardeners!
+### Talk, trade and grow your passion.
+
+## About
 
 MERN project.
 
 ---
-
 
 
 
@@ -53,4 +54,3 @@ Full React Integration from EJS template engine.
 Host the client site.
 
 ---
-
