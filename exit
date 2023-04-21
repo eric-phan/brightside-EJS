@@ -1,0 +1,26 @@
+[33mcommit a415f734521a016771dca05d122dd6a7997d66cf[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 2a5cc0d a085cb3
+Author: Eric Phan <ericphan43@gmail.com>
+Date:   Tue Mar 21 12:45:10 2023 -0700
+
+    Merge pull request #1 from eric-phan/master
+    
+    fixed spacing, to add: React & Update post
+
+[33mcommit a085cb369e84d390efb4c5e58e7c2c3ff25bb849[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: ultracire <ericphan43@gmail.com>
+Date:   Tue Mar 21 12:44:41 2023 -0700
+
+    fixed spacing, to add: React & Update post
+
+[33mcommit 2a5cc0df995411115fd6b90c7f05554788b6a5b1[m
+Author: ultracire <ericphan43@gmail.com>
+Date:   Sun Mar 19 17:06:23 2023 -0700
+
+    fixed frontend profile and feed spacing issues
+
+[33mcommit 69978c025d47849a9c746aa3c69fcc5af9c03a68[m
+Author: ultracire <ericphan43@gmail.com>
+Date:   Sun Mar 19 01:18:38 2023 -0700
+
+    initial brightside commit
