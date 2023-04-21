@@ -1,11 +1,17 @@
-# Brightside: A fullstack social media site made by and for gardeners!
+# Brightside
 ### Talk, trade and grow your passion.
 
 ## About
 
-MERN project.
+This project is a fullstack social media site made by and for gardeners. Users can post images of their garden and trade each others' seeds to use for their own garden.
 
----
+## Details
+The application hast the following pages:
+**Signup page**: The user will provide email and password to create an account.
+**Login page**: Email and password credentials will be provided here to authenticate the user.
+**Profile page**: The user can view their own posts and login email here.
+**Feed page**: The user can search the database from here.
+**About page**: This application includes an about page in which users can understand the purpose of the webapp.
 
 
 
@@ -50,7 +56,8 @@ To get the values for these environment variables, you will need to
 
 ## Things to add
 
-Full React Integration from EJS template engine.
-Host the client site.
+- Migrating to React Views from EJS template engine.
+- Host the client site.
+- Integrate a Plant Data API for clientside use.
 
 ---
