@@ -8,11 +8,11 @@ This project is a fullstack social media site made by and for gardeners. Users c
 
 ## Details
 The application hast the following pages:
-**Signup page**: The user will provide email and password to create an account.
-**Login page**: Email and password credentials will be provided here to authenticate the user.
-**Profile page**: The user can view their own posts and login email here.
-**Feed page**: The user can search the database from here.
-**About page**: This application includes an about page in which users can understand the purpose of the webapp.
+-**Signup page**: The user will provide email and password to create an account.
+-**Login page**: Email and password credentials will be provided here to authenticate the user.
+-**Profile page**: The user can view their own posts and login email here.
+-**Feed page**: The user can search the database from here.
+-**About page**: This application includes an about page in which users can understand the purpose of the webapp.
 
 
 
