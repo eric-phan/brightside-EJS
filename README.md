@@ -6,7 +6,7 @@
 
 This project is a fullstack social media site made by and for gardeners. Users can post images of their garden and trade each others' seeds to use for their own garden.
 
-I never thought I would garden as a hobby, but I found that gardening can be done in an apartment or in a big backyard. I felt a sense of fullfillment and peace of mind while gardening, so I hope fellow gardeners can use this application to share the fruits of their labor and make new friends!
+I never thought I would garden as a hobby, and picked it up on a whim, and I felt a sense of fullfillment and peace of mind while gardening. I hope fellow gardeners can use this application to share the fruits of their labor and make new friends!
 
 
 
