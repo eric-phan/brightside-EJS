@@ -4,7 +4,7 @@
 
 ## About
 
-This project is a fullstack social media site using the EJS template enginge made by and for gardeners. The latest and updated version of Brightside using React and MantineUI can be found [here:](https://github.com/eric-phan/brightside/tree/main) Users can post images of their garden and trade each others' seeds to use for their own garden.
+This project is a fullstack social media site using the EJS template enginge made by and for gardeners. The latest and updated version of Brightside using React and MantineUI can be found [here.](https://github.com/eric-phan/brightside/tree/main) Users can post images of their garden and trade each others' seeds to use for their own garden.
 
 I never thought I would garden as a hobby, and picked it up on a whim, and I felt a sense of fullfillment and peace of mind while gardening. I hope fellow gardeners can use this application to share the fruits of their labor and make new friends!
 
